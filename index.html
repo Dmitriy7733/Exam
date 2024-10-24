@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>EXAM</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+            <a class="navbar-brand">Weather</a>
+            <div class="container"> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span> 
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarNav"> 
+                    <ul class="navbar-nav ml-auto">  
+                        <li class="nav-item">    
+                            <a class="nav-link" href="mortgage calculator.html">Ипотечный калькулятор</a> 
+                        </li>   
+                    </ul> 
+                </div> 
+            </div> 
+        </nav> 
+    </header>
+    <main>
+        <div class="p-3 mb-2 bg-secondary jumbotron"> 
+            <h1 class="text">Прогноз погоды и калькулятор</h1> 
+            <p>Разработчики сего сайта: Денисов И.В., Курочкин В.А, Бугаев А.П. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ОГТ</p>
+        </div> 
+        <div class="container">
+            <h1 class="text-center">Прогноз погоды</h1>
+            <div class="text-center">
+                <input type="text" id="city" placeholder="Введите город" class="form-control" style="width: 300px; display: inline-block;">
+                <button id="getWeatherBtn" class="btn btn-primary">Получить погоду</button>
+            </div>
+            <div id="weatherResult" class="weather-card"></div>
+            <div class="text-center mt-4">
+                <a href="https://openweathermap.org" class="btn btn-link">Про все это вот можно узнать тута</a>
+                <p>Кто не понял, тот не понял</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

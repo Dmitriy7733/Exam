@@ -1,0 +1,73 @@
+.text {  
+    text-shadow: 5px 4px 3px black; }
+
+
+input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+#error-message {
+    color: red;
+}
+
+#details {
+    margin-top: 15px;
+}
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.navbar { background-color: #333; } 
+.navbar-brand, .navbar-nav .nav-item { color: #fff; } 
+.jumbotron { background-color: var(--bs-gradient);
+     background-size: cover; 
+     color: #fff; 
+     text-align: center; } 
+.text {  
+    text-shadow: 5px 4px 3px black; }
+
+    .hidden {
+        display: none;
+    }
+
+.weather-card {
+        margin-top: 20px;
+    }
+    body {
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 20px;
+    }
+    .calculator {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .result {
+        margin-top: 20px;
+        font-weight: bold;
+    }
